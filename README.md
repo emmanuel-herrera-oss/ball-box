@@ -1,5 +1,5 @@
 # Ball-Box
-This program simulates a bunch of balls trapped in a box. Collisions between balls are modeled as perfectly elastic collisions, and collisions with the wall reduce the ball's velocity by a constant factor.
+This program simulates a bunch of balls trapped in a box. Collisions between balls are modeled as perfectly elastic collisions, and collisions with the wall reduce the ball's velocity by a constant factor. Video of it in action: https://youtu.be/W4434Vk-xig
 
 ## Input
 input_handler.cpp takes keyboard/mouse input and writes the appropriate events to the event queue so that other components can react to user input. Here are the controls
