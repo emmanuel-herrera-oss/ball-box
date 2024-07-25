@@ -145,7 +145,6 @@ void World::apply_object_collisions(Circle& object, std::vector<Circle>& objects
 
 void World::apply_velocity(Circle& object, float secondsElapsed, std::vector<Circle>& objects)
 {
-	if (!this->enable_collisions) return;
 	object.position = object.position.add(object.velocity.scalar_multiply(secondsElapsed));
 }
 

@@ -23,8 +23,7 @@ int main(int argc, char** args)
 	SDL_ShowCursor(0);
 
 	Game g = Game(renderer);
-	g.loop();
-	std::cout << "Ended!\n";
+	g.loop();	
 
 	return 0;
 }

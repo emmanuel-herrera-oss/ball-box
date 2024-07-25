@@ -21,7 +21,7 @@ void InputHandler::handle_input()
 			else if (e.key.keysym.scancode == SDL_SCANCODE_G) {
 				this->event_queue->publish(Event(EVENT_TOGGLE_GRAVITY));
 			}
-			else if (e.key.keysym.scancode == SDL_SCANCODE_C) {
+			else if (e.key.keysym.scancode == SDL_SCANCODE_T) {
 				this->event_queue->publish(Event(EVENT_TOGGLE_COLLISIONS));
 			}
 			else if (e.key.keysym.scancode == SDL_SCANCODE_ESCAPE) {
